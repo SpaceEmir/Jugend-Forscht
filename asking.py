@@ -76,7 +76,7 @@ def main():
 
         tage[tag] = [gefuehl, True]
         speichere_tage()
-        print("Gefühl gespeichert.")
+        print("Ihr Gefühl wurde gespeichert.")
         break
 
 def gibTage():
