@@ -1,0 +1,31 @@
+{
+  "Montag": [
+    "glück",
+    true
+  ],
+  "Dienstag": [
+    "aufregung",
+    true
+  ],
+  "Mittwoch": [
+    "aufregung",
+    true
+  ],
+  "Donnerstag": [
+    "angst",
+    true
+  ],
+  "Freitag": [
+    "wut",
+    true
+  ],
+  "Samstag": [
+    "",
+    false
+  ],
+  "Sonntag": [
+    "",
+    false
+  ],
+  "last_date": "2026-01-02"
+}
