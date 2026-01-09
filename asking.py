@@ -3,14 +3,16 @@ import json
 import datetime
 from emotion import g
 
-DATEI = "emotionen.json"
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+DATEI = os.path.join(BASE_DIR, "emotionen.json")
+
 
 if os.path.exists(DATEI):
     with open(DATEI, "r", encoding="utf-8") as f:
         tage = json.load(f)
 else:
     tage = {
-        "Montag": ["", False],
+        "Montag": ["a", False],
         "Dienstag": ["", False],
         "Mittwoch": ["", False],
         "Donnerstag": ["", False],
