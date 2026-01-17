@@ -12,7 +12,7 @@
     true
   ],
   "Donnerstag": [
-    "angst",
+    "wut",
     true
   ],
   "Freitag": [
@@ -20,12 +20,12 @@
     true
   ],
   "Samstag": [
-    "traurigkeit",
+    "aufregung",
     true
   ],
   "Sonntag": [
     "ruhe",
     true
   ],
-  "last_date": "2026-01-09"
+  "last_date": "2026-01-17"
 }
