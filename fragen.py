@@ -1,10 +1,10 @@
 import os
 import json
 import datetime
-from emotion import g
+from gefühl import g
 
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
-DATEI = os.path.join(BASE_DIR, "emotionen.json")
+DATEI = os.path.join(BASE_DIR, "gefühle.json")
 
 
 if os.path.exists(DATEI):

@@ -1,5 +1,5 @@
 import pandas as pd
-from asking import gibTage as gT
+from fragen import gibTage as gT
 
 tage = gT()
 

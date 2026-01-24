@@ -10,7 +10,7 @@ gefuehle = {
     "wut": ["01111", "rgb(255, 0, 0)"]
 }
 
-gr = {
+rg = {
     "aufregung": "11101",
     "glück": "10110",
     "ruhe": "10011",
@@ -20,7 +20,7 @@ gr = {
 }
 
 def g():
-    return gr
+    return rg
 
 def umwandeln(gefuehl):
     if gefuehl.lower() not in gefuehle.keys():

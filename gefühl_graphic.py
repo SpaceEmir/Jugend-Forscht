@@ -1,5 +1,5 @@
 import matplotlib.pyplot as plt
-from emotion import *
+from gefühl import *
 
 gefuehle = g()
 frequenzen = [umwandeln(gefuehl) for gefuehl in gefuehle.keys()]
