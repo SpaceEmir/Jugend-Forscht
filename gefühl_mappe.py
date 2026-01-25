@@ -1,6 +1,6 @@
 import matplotlib.pyplot as plt
 
-duygular = [
+gefuehle = [
     ("Aufregung", 3, 4),
     ("Glück", 3, 2),
     ("Ruhe", 1, -5),
@@ -20,9 +20,9 @@ plt.plot([-5, 5], [0, 0], linewidth=1, color="black")
 
 plt.plot([0, 0], [-5, 5], linewidth=1, color="black")
 
-for isim, x, y in duygular:
+for gefuehl, x, y in gefuehle:
     plt.scatter(x, y)
-    plt.text(x, y + 0.2, isim)
+    plt.text(x, y + 0.2, gefuehl)
 
 plt.xlabel("negativ/positiv")
 plt.ylabel("ruhig/energisch")

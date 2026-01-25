@@ -22,10 +22,11 @@ rg = {
 def g():
     return rg
 
+def bin_umwandeln(bin):
+    zahl = int(bin, 2)
+    return 200 + zahl * 10
+
 def umwandeln(gefuehl):
-    if gefuehl.lower() not in gefuehle.keys():
-        return 200
-        
     zahl = gefuehle[gefuehl][0]
     return 200 + int(zahl, 2) * 10
 
