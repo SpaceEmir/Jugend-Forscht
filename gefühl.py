@@ -72,7 +72,7 @@ class Emotion:
     def __init__(self, gefuehl):
         self.gefuehl = gefuehl.lower()
         self.wert = self.umwandeln()
-        self.farbe = gefuehle[gefuehl][1]
+        self.farbe = gefuehle[gefuehl.lower()][1]
 
     def umwandeln(self):
         if self.gefuehl not in gefuehle.keys():
@@ -86,7 +86,7 @@ class Emotion:
         sound.start()
 
     def gib_farbe(self):
-        return gefuehle[self.gefuehl][1]
+        return gefuehle[self.gefuehl.lower()][1]
 
 if __name__ == "__main__":
     window = EmotionWindow()

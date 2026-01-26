@@ -2,7 +2,7 @@ import matplotlib.pyplot as plt
 
 gefuehle = [
     ("Aufregung", 3, 4),
-    ("Glück", 3, 2),
+    ("Glück", 3, 0),
     ("Ruhe", 1, -5),
     ("Traurigkeit", -3, -1),
     ("Angst", -2, 3),
