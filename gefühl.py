@@ -87,6 +87,6 @@ class Gefuehl:
     def gib_farbe(self):
         return gefuehle[self.gefuehl.lower()][1]
 
-if __name__ == "__main__ ":
+if __name__ == "__main__":
     window = GefuehlWindow()
     window.beginn()
