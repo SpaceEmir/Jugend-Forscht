@@ -29,8 +29,7 @@ def bin_umwandeln(bin):
 def umwandeln(gefuehl):
     zahl = gefuehle[gefuehl][0]
     return 200 + int(zahl, 2) * 10
-
-class EmotionWindow():
+class GefuehlWindow():
     def __init__(self):
         self.app = QApplication([])
         self.app.setStyle("Fusion")
@@ -57,8 +56,8 @@ class EmotionWindow():
 
         self.button.clicked.connect(self.abspielen)
 
-    def abspielen(self):
-        emotion = Emotion(self.eingabe.text())
+    def abspielen(self):        
+        emotion = Gefuehl(self.eingabe.text())
         color = "QWidget {\n" + f"   background-color: {emotion.gib_farbe()};\n" + "}"
         self.app.setStyleSheet(color)
         emotion.hoeren()
@@ -68,7 +67,7 @@ class EmotionWindow():
         self.app.exec_()
 
 
-class Emotion:
+class Gefuehl:
     def __init__(self, gefuehl):
         self.gefuehl = gefuehl.lower()
         self.wert = self.umwandeln()
@@ -88,6 +87,6 @@ class Emotion:
     def gib_farbe(self):
         return gefuehle[self.gefuehl.lower()][1]
 
-if __name__ == "__main__":
-    window = EmotionWindow()
+if __name__ == "__main__ ":
+    window = GefuehlWindow()
     window.beginn()
