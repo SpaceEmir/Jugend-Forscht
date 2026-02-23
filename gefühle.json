@@ -1,31 +1,31 @@
 {
   "Montag": [
-    "glück",
-    true
-  ],
-  "Dienstag": [
-    "aufregung",
-    true
-  ],
-  "Mittwoch": [
-    "aufregung",
-    true
-  ],
-  "Donnerstag": [
     "wut",
     true
   ],
-  "Freitag": [
+  "Dienstag": [
     "glück",
     true
   ],
+  "Mittwoch": [
+    "traurigkeit",
+    true
+  ],
+  "Donnerstag": [
+    "glück",
+    true
+  ],
+  "Freitag": [
+    "angst",
+    true
+  ],
   "Samstag": [
-    "aufregung",
+    "wut",
     true
   ],
   "Sonntag": [
-    "aufregung",
+    "ruhe",
     true
   ],
-  "last_date": "2026-01-25"
+  "last_date": "2026-02-23"
 }

@@ -29,6 +29,7 @@ def bin_umwandeln(bin):
 def umwandeln(gefuehl):
     zahl = gefuehle[gefuehl][0]
     return 200 + int(zahl, 2) * 10
+
 class GefuehlWindow():
     def __init__(self):
         self.app = QApplication([])

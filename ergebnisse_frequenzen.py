@@ -1,5 +1,8 @@
 import gefühl
 import pandas as pd
+import os
+
+os.system("clear")
 
 def bin_find(bin):
     return f"((({bin[0]} * 2 + {bin[1]}) * 2 + {bin[2]}) * 2 + {bin[3]}) * 2 + {bin[4]}"
