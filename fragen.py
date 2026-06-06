@@ -12,7 +12,7 @@ if os.path.exists(DATEI):
         tage = json.load(f)
 else:
     tage = {
-        "Montag": ["a", False],
+        "Montag": ["", False],
         "Dienstag": ["", False],
         "Mittwoch": ["", False],
         "Donnerstag": ["", False],

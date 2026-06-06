@@ -4,11 +4,11 @@
     true
   ],
   "Dienstag": [
-    "glück",
+    "aufregung",
     true
   ],
   "Mittwoch": [
-    "traurigkeit",
+    "glück",
     true
   ],
   "Donnerstag": [
@@ -24,8 +24,8 @@
     true
   ],
   "Sonntag": [
-    "ruhe",
+    "glück",
     true
   ],
-  "last_date": "2026-02-23"
+  "last_date": "2026-06-03"
 }

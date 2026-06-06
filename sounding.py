@@ -13,3 +13,11 @@ class Sound():
 
         sd.play(signal, self.fs)
         sd.wait()
+        
+def sound(f, d, fs=44100):
+    t = np.linspace(0, self.duration, int(self.fs * self.duration), endpoint=False)
+    signal = np.sin(2 * np.pi * self.frequency * t)
+
+    sd.play(signal, self.fs)
+    sd.wait()
+        
